@@ -1,6 +1,6 @@
 # Called by morbs:tick as armor_stand
 
-say morb landed
+#say morb landed
 # Catch mob and drop morb wenn morbType == 0 (Empty) 
 execute if entity @s[scores={morbType=0}] run execute as @e[type=!item,distance=..3,limit=1,nbt={HurtTime:10s}] at @s run function morbs:catch_mob
 

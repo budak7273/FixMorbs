@@ -2,7 +2,7 @@
 
 # Update scores for next tick.
 # set score if player has a Morb in the main hand 
-say in main hand
+#say in main hand
 scoreboard players set @s holdsMorb 1
 scoreboard players set @s morbType -1
 scoreboard players set @s[nbt={SelectedItem:{tag:{display:{Lore:["{\"text\":\"Empty\"}"]}}}}] morbType 0
