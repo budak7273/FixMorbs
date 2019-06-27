@@ -1,0 +1,8 @@
+Lore:["
+with
+Lore:["{\"text\":\"
+
+
+"]
+with
+\"}"]

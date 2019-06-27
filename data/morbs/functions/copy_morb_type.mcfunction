@@ -1,0 +1,56 @@
+# called by start_tracking as the armorstand at it's position.
+
+scoreboard players set @s morbType -1
+execute if entity @p[distance=..2,scores={holdsMorb=1,morbType=0}] run scoreboard players set @s morbType 0
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=1}] run scoreboard players set @s morbType 1
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=2}] run scoreboard players set @s morbType 2
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=3}] run scoreboard players set @s morbType 3
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=4}] run scoreboard players set @s morbType 4
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=5}] run scoreboard players set @s morbType 5
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=6}] run scoreboard players set @s morbType 6
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=7}] run scoreboard players set @s morbType 7
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=8}] run scoreboard players set @s morbType 8
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=9}] run scoreboard players set @s morbType 9
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=10}] run scoreboard players set @s morbType 10
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=11}] run scoreboard players set @s morbType 11
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=12}] run scoreboard players set @s morbType 12
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=13}] run scoreboard players set @s morbType 13
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=14}] run scoreboard players set @s morbType 14
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=15}] run scoreboard players set @s morbType 15
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=16}] run scoreboard players set @s morbType 16
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=17}] run scoreboard players set @s morbType 17
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=18}] run scoreboard players set @s morbType 18
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=19}] run scoreboard players set @s morbType 19
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=20}] run scoreboard players set @s morbType 20
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=21}] run scoreboard players set @s morbType 21
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=22}] run scoreboard players set @s morbType 22
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=23}] run scoreboard players set @s morbType 23
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=24}] run scoreboard players set @s morbType 24
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=25}] run scoreboard players set @s morbType 25
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=26}] run scoreboard players set @s morbType 26
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=27}] run scoreboard players set @s morbType 27
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=28}] run scoreboard players set @s morbType 28
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=29}] run scoreboard players set @s morbType 29
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=30}] run scoreboard players set @s morbType 30
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=31}] run scoreboard players set @s morbType 31
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=32}] run scoreboard players set @s morbType 32
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=33}] run scoreboard players set @s morbType 33
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=34}] run scoreboard players set @s morbType 34
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=35}] run scoreboard players set @s morbType 35
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=36}] run scoreboard players set @s morbType 36
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=37}] run scoreboard players set @s morbType 37
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=38}] run scoreboard players set @s morbType 38
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=39}] run scoreboard players set @s morbType 39
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=40}] run scoreboard players set @s morbType 40
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=41}] run scoreboard players set @s morbType 41
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=42}] run scoreboard players set @s morbType 42
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=43}] run scoreboard players set @s morbType 43
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=44}] run scoreboard players set @s morbType 44
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=45}] run scoreboard players set @s morbType 45
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=46}] run scoreboard players set @s morbType 46
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=47}] run scoreboard players set @s morbType 47
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=48}] run scoreboard players set @s morbType 48
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=49}] run scoreboard players set @s morbType 49
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=50}] run scoreboard players set @s morbType 50
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=51}] run scoreboard players set @s morbType 51
+execute as @s[scores={morbType=-1}] if entity @p[distance=..2,scores={holdsMorb=1,morbType=52}] run scoreboard players set @s morbType 52
