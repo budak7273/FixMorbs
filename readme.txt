@@ -1,3 +1,7 @@
+Rob note:
+
+This datapack was broken by an update that requires lore tags to be specified as JSON. I swapped all occurances of lore tags over to the new format, fixing the pack.
+
 ####################################################################################################
 Mob-Orbs V1.2 by Chillo
 ####################################################################################################
